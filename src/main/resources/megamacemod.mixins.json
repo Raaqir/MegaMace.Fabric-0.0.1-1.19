@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.freenavin.megamace.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ModEntityDataSaver"
+  ],
+  "client": [
+    "MegaMaceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
